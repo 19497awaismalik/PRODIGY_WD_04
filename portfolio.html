@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+        </div>
+        <div class="navbar-item">
+            <ul>
+                <li class="menu-item"><a href="#hero-section">Home</a></li>
+                <li class="menu-item"><a href="#skill-section">Skills</a></li>
+                <li class="menu-item"><a href="#my-work">Work Experience</a></li>
+                <li class="menu-item"><a href="#contact-form">Contact Us</a></li>
+            </ul>
+            <button class="contact-btn">Hire Me</button>
+            <button class="download-btn"><a href="AwaisMalik.pdf" download>Download CV</a></button>
+            <i class="fas fa-bars icon" onclick="handle()"></i>
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="mobile-menu-container">
+                    <div>
+                        <h1 class="logo" style="padding-top: 20px;text-align: center;">Portfolio</h1>
+                    </div>
+                    <div>
+                        <ul class="menu-mobile">
+                            <li class="mobile-menu-item"><a href="#hero-section">Home</a></li>
+                            <li class="mobile-menu-item"><a href="#skill-section">Skills</a></li>
+                            <li class="mobile-menu-item"><a href="#my-work">Work Experience</a></li>
+                            <li class="mobile-menu-item"><a href="#contact-form">Contact Us</a></li>
+                        </ul>
+                        <div class="mobile-btn">
+                            <button class="mobile-contact-btn">Hire Me</button>
+                            <button class="mobile-download-btn"><a href="AwaisMalik.pdf" download>Download
+                                    CV</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="hero-section" id="#hero-section">
+        <div class="hero-text">
+            <h1>Hi,My Name is Awais Malik and I am Passionate <span id="element" class="element"></span></h1>
+            <p class="hero-para">Passionate Frontend Developer | Transforming Idead into Seamless and Visually Stunning
+                Web Solutions</p>
+        </div>
+        <div class="hero-profile">
+            <img src="./polotno (1).png" alt="">
+            <div class="skill">
+                <img src="./react.webp" alt="" class="skill-img">
+                <img src="./next.png" alt="" class="skill-img">
+                <img src="./js.png" alt="" class="skill-img">
+                <img src="./html.png" alt="" class="skill-img">
+                <img src="./css.png" alt="" class="skill-img">
+            </div>
+        </div>
+
+    </section>
+    <section class="technical" id="#skill-section">
+        <div class="technical-text">
+            <h1>Technical Proficiency</h1>
+            <div class="technical-block">
+                <div class="language">
+                    <div class="frontend" id="frontend">
+                        <p id="frontend">Frontend</p>
+                        <i class="fas fa-bars tech-icon" id="frontend"></i>
+                    </div>
+                    <div class="backend" id="backend">
+                        <p id="backend">Backend</p>
+                        <i class="fas fa-cog tech-icon" id="backend"></i>
+                    </div>
+                </div>
+
+                <div class="tools">
+                    <div class="tool" id="tool">
+                        <p id="tool">Tools</p>
+                        <i class="fas fa-tools tech-icon" id="tool"></i>
+
+                    </div>
+                    <div class="soft-skill" id="soft-skill">
+                        <p id="soft-skill">Soft Skills</p>
+                        <i class="fas fa-calendar tech-icon" id="soft-skill"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="technical-skill" id="frontend-skill">
+            <h1 class="skill-heading">
+                Frontend
+            </h1>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>HTML5</p>
+                </div>
+                <div class="progress">
+                    <p>80%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 80%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>CSS3</p>
+                </div>
+                <div class="progress">
+                    <p>80%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 80%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Javascript</p>
+                </div>
+                <div class="progress">
+                    <p>90%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 90%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Reactjs</p>
+                </div>
+                <div class="progress">
+                    <p>85%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 85%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Nextjs</p>
+                </div>
+                <div class="progress">
+                    <p>80%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 80%;"></div>
+            </div>
+
+        </div>
+        <div class="technical-skill" id="backend-skill">
+            <h1 class="skill-heading">
+                Backend
+            </h1>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Nodejs</p>
+                </div>
+                <div class="progress">
+                    <p>80%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 80%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Expressjs</p>
+                </div>
+                <div class="progress">
+                    <p>85%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 85%;"></div>
+            </div>
+
+
+
+        </div>
+        <div class="technical-skill" id="tool-skill">
+            <h1 class="skill-heading">
+                Tools
+            </h1>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Git & Github</p>
+                </div>
+                <div class="progress">
+                    <p>85%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 85%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Visual Studio Code</p>
+                </div>
+                <div class="progress">
+                    <p>75%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 75%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Webpack</p>
+                </div>
+                <div class="progress">
+                    <p>60%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 60%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Responsive Design </p>
+                </div>
+                <div class="progress">
+                    <p>80%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="technical-skill" id="soft-skills">
+            <h1 class="skill-heading">
+                Soft Skills
+            </h1>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Problem-solving</p>
+                </div>
+                <div class="progress">
+                    <p>75%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 75%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Collaboration</p>
+                </div>
+                <div class="progress">
+                    <p>70%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 70%;"></div>
+            </div>
+            <div class="language-progress">
+                <div class="language-skill">
+                    <p>Attention to Detail</p>
+                </div>
+                <div class="progress">
+                    <p>77%</p>
+                </div>
+            </div>
+            <div class="skill-progress-bg">
+                <div class="progress-color" style="width: 75%;"></div>
+            </div>
+        </div>
+
+    </section>
+    <h1 class="work-heading">My Work</h1>
+    <section class="project" id="#my-work">
+        <div class="left"><i class="fas fa-angle-left"></i></div>
+        <div class="right"><i class="fas fa-angle-right"></i></div>
+        <div class="project-container">
+            <div class="overal">
+                <img src="./colorgenerator.jpg" alt="" class="image">
+                <div class="content">
+                    <p>Color Generator Website is Website that is use for creating rgb color like this
+                        rgb(red,green,blue)
+                    </p>
+                    <a href="https://color-generator-six-bice.vercel.app" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="overal">
+                <img src="./textutils.png" alt="" class="image">
+                <div class="content">
+                    <p>Textutils Website is Website for converting text to LowerCase,UpperCase, Capitalize,Copy and etc
+                    </p>
+                    <a href="https://textutile.vercel.app" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="overal">
+                <img src="./todo.jpg" alt="" class="image">
+                <div class="content">
+                    <p>InoteBook Website is Website for saving the note on the cloud with user specific and also perform
+                        crud operation on these note
+                    </p>
+                    <a href="https://inotebook-mern-frontend.vercel.app" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <div class="overal">
+                <img src="./contact-manager.jpg" alt="" class="image">
+                <div class="content">
+                    <p>Contact-Manager Website is Website for saving the contact on the cloud with user specific and
+                        alses perform crud operation on these user contact
+                    </p>
+                    <a href="https://contact-manager-nine-ruddy.vercel.app" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="project-container">
+            <div class="overal">
+                <img src="./pizzajoin.jpg" alt="" class="image">
+                <div class="content">
+                    <p>PizzaJoint Website is Website for get order from the user and also display his order on the
+                        screen
+                    </p>
+                    <a href="https://pizza-joint-ivory.vercel.app" target="_blank">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-slider">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="./colorgenerator.jpg" alt="" id="slide-1">
+                <img src="./contact-manager.jpg" alt="" id="slide-2">
+                <img src="./textutils.png" alt="" id="slide-3">
+                <img src="./pizzajoin.jpg" alt="" id="slide-4">
+                <img src="./todo.jpg" alt="" id="slide-5">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="#contact-form">
+        <div class="social-contact">
+            <div class="mail">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:19497.awaismalik@gmail.com">19497.awaismalik@gmail.com</a>
+            </div>
+            <div class="github">
+                <i class="fab fa-github"></i>
+                <a href="http://github.com/19497awaismalik" target="_blank">http://github.com/19497awaismalik</a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form  id="contactForm">
+                <div class="name">
+                    <div class="first-name">
+                        <input type="text" placeholder="First Name" id="firstname">
+                    </div>
+                    <div class="last-name">
+                        <input type="text" placeholder="Last Name" id="lastname">
+                    </div>
+                </div>
+                <div class="email">
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="message">
+                    <textarea name="" placeholder="Message" id="message"></textarea>
+                </div>
+                <div class="">
+                    <button type="submit" class="button formBtn" style="color: white;"> Contact Me</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class=' Footer'>
+        <p>@2024 Time To Program, Happing Coding</p>;
+
+    </div>
+    </div>
+    <script src="https:unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+
+        const handle = () => {
+            let mobilemenu = document.getElementsByClassName("mobile-menu")[0];
+            mobilemenu.classList.add("active")
+        }
+        let mobilemenu = document.getElementById("mobile-menu");
+        mobilemenu.addEventListener("click", function (e) {
+
+            if (e.target.id === "mobile-menu") {
+                let mobilemenu = document.getElementsByClassName("mobile-menu")[0];
+                mobilemenu.classList.remove("active")
+            }
+
+        })
+        var typed = new Typed('#element', {
+            strings: ["Web Developer", "Full Stack Developer", "React js", "Next js"],
+            typeSpeed: 50,
+        });
+
+
+        let frontend = document.getElementById("frontend");
+        let backend = document.getElementById("backend");
+        let tool = document.getElementById("tool");
+        let softskill = document.getElementById("soft-skill");
+
+        frontend.addEventListener("click", handler);
+        backend.addEventListener("click", handler)
+        tool.addEventListener("click", handler)
+        softskill.addEventListener("click", handler)
+
+        function handler(e) {
+            let frontendskill = document.getElementById("frontend-skill");
+            let backendskill = document.getElementById("backend-skill");
+
+            let toolskill = document.getElementById("tool-skill")
+            let softskills = document.getElementById("soft-skills")
+
+            if (e.target.id === "frontend") {
+                frontendskill.style.display = "block";
+                backendskill.style.display = "none";
+                toolskill.style.display = "none";
+                softskills.style.display = "none"
+            }
+            if (e.target.id === "backend") {
+                frontendskill.style.display = "none";
+                backendskill.style.display = "block";
+                toolskill.style.display = "none";
+                softskills.style.display = "none"
+            }
+            if (e.target.id === "tool") {
+                frontendskill.style.display = "none";
+                backendskill.style.display = "none";
+                toolskill.style.display = "block";
+                softskills.style.display = "none"
+
+            }
+            if (e.target.id === "soft-skill") {
+                frontendskill.style.display = "none";
+                backendskill.style.display = "none";
+                toolskill.style.display = "none";
+                softskills.style.display = "block"
+
+            }
+        }
+
+
+
+
+        let slider1 = document.getElementById("slide-1");
+        let slider2 = document.getElementById("slide-2");
+        let slider3 = document.getElementById("slide-3");
+        let slider4 = document.getElementById("slide-4");
+        let slider5 = document.getElementById("slide-5");
+
+        slider1.addEventListener("click", slider);
+        slider2.addEventListener("click", slider);
+        slider3.addEventListener("click", slider);
+        slider4.addEventListener("click", slider);
+        slider5.addEventListener("click", slider);
+        function slider(e) {
+            
+            if (e.target.id === "slide-1") {
+                window.open("https://color-generator-six-bice.vercel.app", "_blank")
+            }
+            if (e.target.id === "slide-2") {
+                window.open("https://contact-manager-nine-ruddy.vercel.app", "_blank")
+
+            }
+            if (e.target.id === "slide-3") {
+
+                window.open("https://textutile.vercel.app", "_blank")
+            }
+            if (e.target.id === "slide-4") {
+
+                window.open("https://pizza-joint-ivory.vercel.app", "_blank")
+            }
+            if (e.target.id === "slide-5") {
+                window.open("https://inotebook-mern-frontend.vercel.app", "_blank")
+
+            }
+        }
+      let form=document.getElementById("contactForm");
+        console.log(new FormData(form).keys())
+    </script>
+</body>
+
+</html>
